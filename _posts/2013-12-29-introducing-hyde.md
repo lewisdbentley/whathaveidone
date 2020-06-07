@@ -4,6 +4,7 @@ title: Introducing Hyde
 ---
 
 <a href="{{ site.baseurl }}/interval-training.html">interval training</a>
+<a href="{{ site.baseurl }}/interval-training-js.html">interval training js</a>
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
