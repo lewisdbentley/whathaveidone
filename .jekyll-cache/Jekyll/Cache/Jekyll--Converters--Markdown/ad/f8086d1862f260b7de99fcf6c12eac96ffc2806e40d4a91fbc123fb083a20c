@@ -1,0 +1,26 @@
+I"�<p>I created <a href="/interval-training-js.html">this</a> game to improve my coding and piano skills.</p>
+
+<p>I’m quite pleased with how this project turned out. But there are definitely some improvements which could and should be made.</p>
+
+<ul>
+  <li>Change ‘identical’ to ‘unison’ .</li>
+  <li>Make the play button more obvious, with a border and background color.</li>
+  <li>Separate next button from answer butons  with different colour and top margin. Pressing next should also automatically play the next notes.</li>
+  <li>A feature where the game plays a scale, shows some intervals from the scale and asks questions from the scale.</li>
+  <li>Add different sound samples e.g. guitar sounds.</li>
+  <li>Allow the user to select harmonic or melodic intervals.</li>
+  <li>Add levels.
+    <ul>
+      <li>Level 1: Perfect intervals.</li>
+      <li>Level 2: 3rds and 6ths.</li>
+      <li>Level 3: combines levels one and two.</li>
+      <li>level 4: 2nds and 7ths.</li>
+      <li>Level 5: Brings everything together and adds the tritone.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="http://theremin.music.uiowa.edu/MISpiano.html">All piano sounds from University of Iowa Electronic Music Studios</a></p>
+
+<p>I hope you enjoy it!</p>
+:ET
