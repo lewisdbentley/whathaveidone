@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140870026-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-140870026-2');
+        </script>
+
+        <title>What bird is that?</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./public/what-bird-is-that/css/style.css"></link>
+
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="title">What bird is that?</h1>
+            <div id="top">
+                <div class="top-box" id="play"><span>play</span></div>
+                <div class="top-box"><div id="arrow">></div></div>
+                <div class="top-box" id="message"></div>
+            </div>
+            <div id="middle">
+                <div class="middle-box" id="0">Blackbird</div>
+                <div class="middle-box" id="1">Robin</div>
+                <div class="middle-box" id="2">Magpie</div>
+                <div class="middle-box" id="3">Sparrow</div>
+            </div>
+            <div id="end">
+                <div class="end-box" id="next">next</div>
+                <div class="end-box" >
+                    <span id="scoreKeeper">0</span>
+                    <span id="outof">out of</span>
+                    <span id="total">0</span>
+                </div>
+                <span class="end-box" id="percent"> </span>
+            </div>
+            <script src="./public/what-bird-is-that/scripts/script.js"></script>
+        </div>
+    </body>
+</html>
