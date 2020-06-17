@@ -15,12 +15,20 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    /* border: 2px solid black; */
+}
+
+#play span {
+    font-size: 190%;
+    background-color: buttonface;
+    padding: 0 20px;
 }
 
 #next {
     cursor: pointer;
     margin: 0 33%;
-    background-color: buttonface;
+    margin-top: 30px;
+    background-color: #999;
 }
 
 #arrow {
@@ -71,6 +79,9 @@ h1 {
 
 .middle-box {
     width: 49%;
+    height: 12vh;
+    background-color: buttonface;
+
     border: 1px solid white;
     cursor: pointer;
 }
