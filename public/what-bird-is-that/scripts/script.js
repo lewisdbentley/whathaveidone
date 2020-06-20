@@ -14,21 +14,25 @@ const answerButtons = document.getElementById('middle')
 const message = document.getElementById('message')
 
 const birdArray = [
-    'a blackbird',
-    'a robin',
-    'a magpie',
-    'a sparrow',
-    'a blue tit',
-    'a skylark',
-    'a cuckoo',
-    'a starling',
-    'a wren',
-    'a thrush'
+    'blackbird',
+    'robin',
+    'magpie',
+    'sparrow',
+    'blue tit',
+    'skylark',
+    'cuckoo',
+    'starling',
+    'wren',
+    'thrush',
+    'herring gull',
+    'nightingale',
+    'green woodpecker',
+    'red kite',
+    'barn owl',
+    'canada goose'
 ]
 
-const birdAssets = [
-    0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-]
+const birdAssets = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 , 13, 14, 15]
 
 // define functionality
 const audio = function() {
@@ -102,8 +106,8 @@ const checker = function(selection, event) {
         if (checkAnswer) {
             score++
             scoreKeeper.firstChild.nodeValue = score
-            event.target.style.backgroundColor = 'green'
-            message.textContent = `Correct, it's ${birdArray[randomSelection]}`
+            event.target.style.backgroundColor = '#6BC74C'
+            message.textContent = `Correct, it's a ${birdArray[randomSelection]}`
         }
         let percent = Math.floor((score / total) * 100)
         percentKeeper.firstChild.nodeValue = `(${percent}%)`

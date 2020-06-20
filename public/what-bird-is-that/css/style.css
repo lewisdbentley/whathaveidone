@@ -1,5 +1,6 @@
 body {
     font-size: 45px;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 
 #play span {
     font-size: 190%;
-    background-color: buttonface;
+    background-color: #A9BD8A;;
     padding: 0 20px;
 }
 
@@ -28,7 +29,7 @@ h1 {
     cursor: pointer;
     margin: 0 33%;
     margin-top: 30px;
-    background-color: #999;
+    background-color: #A9BD8A;;
 }
 
 #arrow {
